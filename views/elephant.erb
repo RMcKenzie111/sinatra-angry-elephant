@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angry Elephant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+      .img {
+       width: 200px;
+       opacity: 1;
+       margin: 2rem;
+       border-radius: 3rem;
+       border: .75rem solid brown;
+      }
+
+      form {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        
+      }
+      
+      .hero {
+        position: relative;
+        display: flex;
+        align-items: center;
+        left: -1.5rem;
+        color: forestgreen;
+        font-size: 5rem;
+      }
+      .imgy {    
+        postion: relative;
+        display: flex;
+        width: 20%;
+      }
+      
+      .ruggy {
+          color: brown;
+          -webkit-text-stroke: tan .5px;
+      }
+      .funny {
+          color: chartreuse;
+          -webkit-text-stroke: red .5px;
+      }
+      .locally {
+          color: lime;
+          -webkit-text-stroke: blue .5px;
+      }
+      .titles {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+      }
+
+      button{
+        background-color: hotpink;
+        color: white;
+        border: thick double white;
+        text-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titles">
+      <img class="imgy" src="https://media.tenor.com/fnMSklaZPvMAAAAe/canticos-elephant.png" alt="">
+      <h1 class="hero">Angry Elephant</h1>
+      <img class="imgy" src="https://media.tenor.com/fnMSklaZPvMAAAAe/canticos-elephant.png" alt="">
+    </div>
+    
+    
+    <form action="/elephant_maybe">
+      <div class="ruggy">
+        <label for="elephant_rug">
+        Do you like the rug pictured below?
+        </label>
+        <input id="elephant_rug" type="text" name="rug" placeholder="yes or no">
+        
+    
+      </div>
+   
+      <div class="funny">
+        <label for="funeral">
+        Are you at a funeral?
+        </label>
+        <input id="funeral" type="text" name="a_funeral" placeholder="yes or no">
+      </div>
+
+      <div class="locally">
+        <label for="user_location">
+        Where are you?
+        </label>
+        <input id="user_location" type="text" name="user_local" placeholder="Enter location">
+      </div>
+
+      <button>
+       Submit
+      </button>
+
+    </form>
+    <img class="img" src="https://ctl.s6img.com/society6/img/u1bpcf9e6U4NJKi45S6ps1iyGt0/w_700/rugs/2x3/lifestyle/~artwork,fw_4500,fh_3000,fy_-750,iw_4500,ih_4500/s6-original-art-uploads/society6/uploads/misc/b6dfac757e354fde8940331f7fe98c89/~~/elephant-skin745239-rugs.jpg?attempt=0" alt="">
+
+</body>
+</html>
