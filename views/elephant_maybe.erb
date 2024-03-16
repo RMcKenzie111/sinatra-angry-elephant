@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angry Elephant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+      .hero {
+        position: relative;
+        display: flex;
+        align-items: center;
+        left: -.1rem;
+        color: lightpink;
+        -webkit-text-stroke: white .1rem;
+        font-size: 4rem;
+        text-decoration: none;
+        text-align: center;
+      }
+      .imgy {    
+        postion: relative;
+        display: flex;
+        width: 20%;
+        border-radius: 10rem;
+        border: .5rem double white;
+      }
+
+      body {
+        background-color: lightblue;
+        overflow: hidden;
+      }
+      
+      
+      .titles {
+        display: flex;
+        justify-content: center;
+        margin-top: 11rem;
+      }
+      .oh {
+        position: relative;
+        display: flex;
+        
+        left: 33rem;
+        color: white;
+        -webkit-text-stroke: lightpink .1rem;
+        font-size: 2rem;
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="titles">
+      
+      <img class="imgy" src="https://tasteminty.com/file/image/750/00006544.png" alt="">
+      <a class="hero"href="/elephant"> <%= @result %></a>
+      <img class="imgy" src="https://tasteminty.com/file/image/750/00006544.png" alt="">
+      
+    </div>
+    <a class="oh"href="/elephant"> try again?</a>
+    <a class="oh"href="/"> go home?</a>
+    
+    
+  </body>
+  </html>
