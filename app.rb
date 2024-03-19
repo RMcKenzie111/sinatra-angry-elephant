@@ -36,7 +36,7 @@ get("/elephant_maybe") do
  
 
   @user_local = params.fetch("user_local")
-  gmaps = ENV.fetch("GMAPS_KEY")
+  gmaps = ENV.fetch("EXCHANGE_RATE_KEY")
   @local_url = @user_local.gsub(" ","+")
   gmaps_url = "https://maps.googleapis.com/maps/api/geocode/json?address=#{@local_url}&key=#{gmaps}"
   
@@ -91,4 +91,3 @@ get("/elephant_maybe") do
   end
   erb(:elephant_maybe)
 end
-
