@@ -32,7 +32,7 @@ end
 
 get("/elephant_maybe") do
   @rug = params.fetch("rug")
-  @funeral = params.fetch("a_funeral")
+  @funeral = params.fetch("a_funera")
  
 
   @user_local = params.fetch("user_local")
